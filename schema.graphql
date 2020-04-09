@@ -1,0 +1,12 @@
+type Mutation {
+    post(text: String!): Message!
+}
+type Subscription {
+    messageAdded: Message!
+}
+
+type Message {
+    id: ID!
+    text: String!
+    testMessage: String!
+}

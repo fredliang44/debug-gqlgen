@@ -1,0 +1,16 @@
+models:
+  Message:
+    model: debug_gqlgen/graphql.Message
+
+resolver:
+  filename: graphql/resolver.go
+  package: graphql
+  type: Resolver
+
+exec:
+  filename: graphql/generated.go
+  package: graphql
+
+model:
+  filename: graphql/gmodels_gen.go
+  package: graphql
